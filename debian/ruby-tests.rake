@@ -1,5 +1,5 @@
-require 'gem2deb/rake/spectask'
+require 'gem2deb/rake/testtask'
 
-Gem2Deb::Rake::RSpecTask.new do |spec|
-  spec.pattern = './spec/**/*_spec.rb'
+Gem2Deb::Rake::TestTask.new do |t|
+  t.test_files = Dir.glob('./spec/**/*_spec.rb')
 end
