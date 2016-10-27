@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    whirly (0.2.2)
+      unicode-display_width (~> 1.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.8.4)
+    paint (1.0.1)
+    unicode-display_width (1.1.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest
+  paint
+  whirly!
+
+BUNDLED WITH
+   1.12.5
